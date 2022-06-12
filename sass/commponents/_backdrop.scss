@@ -20,8 +20,6 @@
     }
 }
 
-
-
 .backdrop__modal {
     position: absolute;
     top: 50%;
@@ -65,8 +63,6 @@
     }
 }
 
-
-
 .backdrop__btn-close-icone {
 
     fill: currentColor;
@@ -102,8 +98,6 @@
 
     position: relative;
 }
-
-
 
 .backdrop__form-label {
     display: block;
@@ -160,9 +154,6 @@
     }
 }
 
-
-
-
 .backdrop__form-agree {
 
     text-align: left;
@@ -185,8 +176,6 @@
 
 }
 
-
-
 .backdrop__check-icon {
 
     width: 16px;
@@ -207,8 +196,6 @@
     background-color: getColorFromPalette('accent', 'light');
     border-width: 0;
     fill: getColorFromPalette('primary', 'light');
-
-
 }
 
 .backdrop__check-agree {
@@ -218,7 +205,6 @@
 
     letter-spacing: 0.03em;
     color: getColorFromPalette('primary', 'additional');
-
 }
 
 .backdrop__policy-link {
@@ -249,4 +235,3 @@
         background-color: getColorFromPalette('accent', 'additional');
     }
 }
-

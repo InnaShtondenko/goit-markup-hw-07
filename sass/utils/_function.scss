@@ -1,23 +1,21 @@
 @function createTransitionFor(
-    $type,
+    $types,
     $duration: getTransition('time'),
     $timeFunction: getTransition('timeFunction')
 ){
-$compoundValue:'';
+    $compoundValue: '';
 
-@each $type in $types {
-    $compoundValue: #{$compoundValue} #{$type} #{$duration} #{$timeFunction};
-    @if $type != nth($types, -1) {
+    @each $type in $types {
+        $compoundValue: #{$compoundValue} #{$type} #{$duration} #{$timeFunction};
+        @if $type != nth($types, -1) {
         $compoundValue: #{$compoundValue} ',';
     }
-}
-@return $compoundValue;
+    @return $compoundValue;
 }
 
-@function getColorFromPalette(
-    $group,
-    $type
-){
+}
+
+@function getColorFromPalette($group, $type){
     $subMap: map-get($colorPalette, $group);
 
     @return map-get($subMap, $type);

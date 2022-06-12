@@ -13,8 +13,6 @@
     }
 }
 
-
-
 .features-section__item {
     flex-basis: calc(100% / 4);
 
@@ -22,8 +20,6 @@
         margin-right: 30px;
     }
 }
-
-
 
 .features-section__subtitle {
     font-weight: getFontWeight('bold');
@@ -52,5 +48,4 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: getColorFromPalette('primary', 'additional');
-
 }

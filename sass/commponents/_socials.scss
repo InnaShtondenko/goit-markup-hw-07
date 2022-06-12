@@ -13,7 +13,6 @@
 
 }
 
-
 .socials__social-link,
 .footer__socials-link {
     display: flex;
@@ -25,8 +24,8 @@
     fill: getColorFromPalette('icons', 'main');
     border-radius: 50%;
 
-    transition: createTransitioinFor('background-color'),
-    createTransitioinFor('fill');
+    transition: createTransitionFor('background-color'),
+    createTransitionFor('fill');
 
 
     &:hover,

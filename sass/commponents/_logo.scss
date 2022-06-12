@@ -1,15 +1,15 @@
 .logo {
     display: block;
-    color: getColorFromPalette('primary', 'dark');
     font-family: getFontFamily('second');
     font-weight: getFontWeight('bold');
+    color: getColorFromPalette('primary', 'dark');
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.logo__text-accent {
+.logo__text-accent { 
 
     font-family: getFontFamily('second');
     font-style: normal;
